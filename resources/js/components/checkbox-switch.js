@@ -13,6 +13,10 @@ const CHECKED = 'checked';
 
 export default class CheckboxSwitch {
 
+    /**
+     *
+     * @param {Element} element
+     */
     constructor(element) {
         this.$element = $(element);
         this.$inputCheckbox = $(element).find(INPUT_ELEMENT);
